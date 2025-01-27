@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "UP",
+    "slug": "UP",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/UPGrade.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/UPGrade.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E1E1E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/UpGrade.jpg",
+        "backgroundColor": "#1E1E1E"
+      }
+    },
+    
+    "web": {
+      "favicon": "./src/assets/UpGrade.jpg"
+    }
+  }
+}
